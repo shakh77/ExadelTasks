@@ -1,0 +1,9 @@
+1. Check if SSH server is down
+2. Check if my router has a reachable route to a remote server
+3. Check if SSH service is enabled on a client and on a server
+4. Check if SSH port is open on a remote side
+5. Check if firewall is blocking SSH on a server
+6. Check if public key is configured on a server
+7. Check if your user on a client has permissions to key file
+8. f you are trying to connect as a root, check ssh config file to see if it's permitted
+9. Try to debug ssh connection with ssh -vvv
